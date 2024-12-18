@@ -1,6 +1,5 @@
 package com.devsuperior.dsmeta.services;
 
-import java.awt.print.Pageable;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -9,6 +8,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.devsuperior.dsmeta.dto.SaleMinDTO;
